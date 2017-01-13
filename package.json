@@ -7,7 +7,7 @@
   },
   "main": "stream-server.js",
   "scripts": {
-    "start": "heroku features:enable http-session-affinity; node stream-server.js BGCC1881"
+    "start": "node stream-server.js BGCC1881"
   },
   "dependencies": {
     "ws": "1.1.1"
