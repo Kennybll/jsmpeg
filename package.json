@@ -1,0 +1,15 @@
+{
+  "name": "Live Stream BGCC",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "stream-server.js",
+  "scripts": {
+    "start": "node stream-server.js BGCC1881 1880 1881"
+  },
+  "dependencies": {
+    "ws": "1.1.1"
+  }
+}
